@@ -14,4 +14,36 @@
 	<natures>
 		<nature>connectiq.projectNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>source/PowerCalc.mc</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/PowerField/source/PowerCalc.mc</locationURI>
+		</link>
+		<link>
+			<name>source/PowerFieldView.mc</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/PowerField/source/PowerFieldView.mc</locationURI>
+		</link>
+		<link>
+			<name>resources/drawables/drawables.xml</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/PowerField/resources/drawables/drawables.xml</locationURI>
+		</link>
+		<link>
+			<name>resources/drawables/launcher_icon.png</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/PowerField/resources/drawables/launcher_icon.png</locationURI>
+		</link>
+		<link>
+			<name>resources/layouts/layouts.xml</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/PowerField/resources/layouts/layouts.xml</locationURI>
+		</link>
+		<link>
+			<name>resources/strings/strings.xml</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/PowerField/resources/strings/strings.xml</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>
