@@ -2,9 +2,21 @@
 
 class PowerFieldViewMock extends PowerFieldView
 {
+    protected var activityMonitorInfo = new ActivityMonitorInfoMock();
+
     function initialize()
     {
         PowerFieldView.initialize();
+    }
+
+    function getActivityMonitorInfo()
+    {
+        return activityMonitorInfo;
+    }
+
+    function setActivityMonitorInfo(info)
+    {
+        activityMonitorInfo = info;
     }
 
 
