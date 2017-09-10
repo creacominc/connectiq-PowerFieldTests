@@ -1,313 +1,284 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="8" pc="268435456" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="9" pc="268435460" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="10" pc="268435478" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="15" pc="268435492" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="16" pc="268435496" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="19" pc="268435515" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="20" pc="268435538" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="24" pc="268435607" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="28" pc="268435676" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="32" pc="268435745" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="36" pc="268435791" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="37" pc="268435834" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="38" pc="268435858" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="39" pc="268435880" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="40" pc="268435904" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="43" pc="268435926" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="44" pc="268435978" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="51" pc="268435982" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="53" pc="268435986" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="54" pc="268435997" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="55" pc="268436010" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="57" pc="268436029" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="64" pc="268436046" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="66" pc="268436050" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="69" pc="268436093" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="70" pc="268436117" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="71" pc="268436144" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="73" pc="268436171" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="75" pc="268436195" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="78" pc="268436229" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsBackground.mc" lineNum="9" pc="268436250" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsBackground.mc" lineNum="10" pc="268436254" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsBackground.mc" lineNum="14" pc="268436275" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsBackground.mc" lineNum="17" pc="268436296" symbol="setColor"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsBackground.mc" lineNum="18" pc="268436300" symbol="setColor"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsBackground.mc" lineNum="21" pc="268436311" symbol="draw"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsBackground.mc" lineNum="22" pc="268436315" symbol="draw"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsBackground.mc" lineNum="23" pc="268436347" symbol="draw"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsApp.mc" lineNum="5" pc="268436360" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsApp.mc" lineNum="6" pc="268436364" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsApp.mc" lineNum="10" pc="268436383" symbol="onStart"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsApp.mc" lineNum="14" pc="268436388" symbol="onStop"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsApp.mc" lineNum="18" pc="268436393" symbol="getInitialView"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsApp.mc" lineNum="19" pc="268436397" symbol="getInitialView"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="28" pc="268436435" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="30" pc="268436439" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="31" pc="268436457" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="32" pc="268436470" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="33" pc="268436483" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="34" pc="268436496" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="35" pc="268436509" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="36" pc="268436522" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="37" pc="268436535" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="38" pc="268436548" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="39" pc="268436561" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="40" pc="268436598" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="41" pc="268436635" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="42" pc="268436672" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="43" pc="268436709" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="44" pc="268436746" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="45" pc="268436783" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="46" pc="268436820" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="47" pc="268436833" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="48" pc="268436846" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="49" pc="268436859" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="50" pc="268436872" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="51" pc="268436885" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="52" pc="268436898" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="57" pc="268436912" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="58" pc="268436916" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="61" pc="268436935" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="62" pc="268436958" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="66" pc="268437027" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="70" pc="268437096" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="74" pc="268437165" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="78" pc="268437211" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="79" pc="268437218" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="80" pc="268437225" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="81" pc="268437232" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="82" pc="268437275" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="83" pc="268437299" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="84" pc="268437321" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="85" pc="268437328" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="86" pc="268437352" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="87" pc="268437374" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="88" pc="268437381" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="89" pc="268437405" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="90" pc="268437427" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="91" pc="268437434" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="92" pc="268437458" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="93" pc="268437480" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="94" pc="268437487" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="95" pc="268437511" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="96" pc="268437533" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="97" pc="268437540" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="98" pc="268437564" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="99" pc="268437586" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="100" pc="268437593" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="101" pc="268437617" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="102" pc="268437639" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="103" pc="268437646" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="104" pc="268437670" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="105" pc="268437692" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="106" pc="268437699" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="107" pc="268437723" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="108" pc="268437745" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="111" pc="268437752" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="112" pc="268437804" symbol="onLayout"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="119" pc="268437808" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="121" pc="268437812" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="123" pc="268437823" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="124" pc="268437836" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="126" pc="268437855" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="129" pc="268437871" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="131" pc="268437882" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="133" pc="268437895" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="134" pc="268437928" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="135" pc="268437961" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="136" pc="268437994" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="137" pc="268438027" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="138" pc="268438060" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="139" pc="268438093" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="143" pc="268438129" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="144" pc="268438142" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="145" pc="268438155" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="146" pc="268438168" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="147" pc="268438181" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="148" pc="268438194" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="149" pc="268438207" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="151" pc="268438220" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="151" pc="268438240" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="152" pc="268438259" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="152" pc="268438279" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="153" pc="268438298" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="153" pc="268438318" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="154" pc="268438337" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="154" pc="268438357" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="155" pc="268438376" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="155" pc="268438396" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="156" pc="268438415" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="156" pc="268438435" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="157" pc="268438454" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="157" pc="268438474" symbol="compute"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="163" pc="268438497" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="165" pc="268438501" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="168" pc="268438544" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="169" pc="268438568" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="170" pc="268438595" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="172" pc="268438622" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="174" pc="268438646" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="177" pc="268438686" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="178" pc="268438710" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="179" pc="268438734" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="180" pc="268438758" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="181" pc="268438782" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="182" pc="268438806" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="183" pc="268438830" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="184" pc="268438854" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="185" pc="268438881" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="186" pc="268438905" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="187" pc="268438929" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="188" pc="268438953" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="189" pc="268438977" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="190" pc="268439001" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="191" pc="268439025" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="193" pc="268439052" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="194" pc="268439076" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="195" pc="268439100" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="196" pc="268439124" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="197" pc="268439148" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="198" pc="268439172" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="199" pc="268439196" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="201" pc="268439220" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="202" pc="268439242" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="203" pc="268439264" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="204" pc="268439286" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="205" pc="268439308" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="206" pc="268439330" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="207" pc="268439352" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="208" pc="268439374" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="209" pc="268439466" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="210" pc="268439558" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="211" pc="268439650" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="212" pc="268439742" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="213" pc="268439834" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="214" pc="268439926" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="218" pc="268440018" symbol="onUpdate"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="13" pc="268440039" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="15" pc="268440043" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="16" pc="268440054" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="17" pc="268440067" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="18" pc="268440080" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="19" pc="268440093" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="20" pc="268440103" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="22" pc="268440114" symbol="initialize"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="26" pc="268440142" symbol="update"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="30" pc="268440146" symbol="update"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="31" pc="268440165" symbol="update"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="33" pc="268440214" symbol="update"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="34" pc="268440251" symbol="update"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="36" pc="268440270" symbol="update"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="37" pc="268440286" symbol="update"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="38" pc="268440305" symbol="update"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="40" pc="268440319" symbol="update"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="46" pc="268440338" symbol="update"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="48" pc="268440355" symbol="update"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="50" pc="268440371" symbol="update"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="51" pc="268440390" symbol="update"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="52" pc="268440409" symbol="update"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="53" pc="268440434" symbol="update"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="55" pc="268440450" symbol="update"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="57" pc="268440461" symbol="update"/>
-<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="59" pc="268440542" symbol="update"/>
-<entry filename="Rez" lineNum="19" pc="268440555" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="23" pc="268440567" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="24" pc="268440591" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="25" pc="268440754" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="26" pc="268440779" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="27" pc="268440831" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="28" pc="268440877" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="29" pc="268441040" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="30" pc="268441065" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="31" pc="268441117" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="32" pc="268441163" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="33" pc="268441326" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="34" pc="268441351" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="35" pc="268441403" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="36" pc="268441449" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="37" pc="268441612" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="38" pc="268441637" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="39" pc="268441689" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="40" pc="268441735" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="41" pc="268441898" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="42" pc="268441923" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="43" pc="268441975" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="44" pc="268442021" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="45" pc="268442184" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="46" pc="268442209" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="47" pc="268442261" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="48" pc="268442307" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="49" pc="268442470" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="50" pc="268442495" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="51" pc="268442547" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="52" pc="268442593" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="53" pc="268442756" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="54" pc="268442781" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="55" pc="268442833" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="56" pc="268442879" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="57" pc="268443042" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="58" pc="268443067" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="59" pc="268443119" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="62" pc="268443165" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="71" pc="268443273" symbol="TopLeftLayout"/>
-<entry filename="Rez" lineNum="75" pc="268443285" symbol="TopLeftLayout"/>
-<entry filename="Rez" lineNum="76" pc="268443309" symbol="TopLeftLayout"/>
-<entry filename="Rez" lineNum="77" pc="268443442" symbol="TopLeftLayout"/>
-<entry filename="Rez" lineNum="80" pc="268443575" symbol="TopLeftLayout"/>
-<entry filename="Rez" lineNum="89" pc="268443613" symbol="TopRightLayout"/>
-<entry filename="Rez" lineNum="93" pc="268443625" symbol="TopRightLayout"/>
-<entry filename="Rez" lineNum="94" pc="268443649" symbol="TopRightLayout"/>
-<entry filename="Rez" lineNum="95" pc="268443782" symbol="TopRightLayout"/>
-<entry filename="Rez" lineNum="98" pc="268443915" symbol="TopRightLayout"/>
-<entry filename="Rez" lineNum="107" pc="268443953" symbol="BottomLeftLayout"/>
-<entry filename="Rez" lineNum="111" pc="268443965" symbol="BottomLeftLayout"/>
-<entry filename="Rez" lineNum="112" pc="268443989" symbol="BottomLeftLayout"/>
-<entry filename="Rez" lineNum="113" pc="268444122" symbol="BottomLeftLayout"/>
-<entry filename="Rez" lineNum="116" pc="268444255" symbol="BottomLeftLayout"/>
-<entry filename="Rez" lineNum="125" pc="268444293" symbol="BottomRightLayout"/>
-<entry filename="Rez" lineNum="129" pc="268444305" symbol="BottomRightLayout"/>
-<entry filename="Rez" lineNum="130" pc="268444329" symbol="BottomRightLayout"/>
-<entry filename="Rez" lineNum="131" pc="268444462" symbol="BottomRightLayout"/>
-<entry filename="Rez" lineNum="134" pc="268444595" symbol="BottomRightLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="5" pc="268435456" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsView.mc" lineNum="7" pc="268435460" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsBackground.mc" lineNum="9" pc="268435479" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsBackground.mc" lineNum="10" pc="268435483" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsBackground.mc" lineNum="14" pc="268435504" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsBackground.mc" lineNum="17" pc="268435525" symbol="setColor"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsBackground.mc" lineNum="18" pc="268435529" symbol="setColor"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsBackground.mc" lineNum="21" pc="268435540" symbol="draw"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsBackground.mc" lineNum="22" pc="268435544" symbol="draw"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsBackground.mc" lineNum="23" pc="268435576" symbol="draw"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsApp.mc" lineNum="5" pc="268435589" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsApp.mc" lineNum="6" pc="268435593" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsApp.mc" lineNum="10" pc="268435612" symbol="onStart"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsApp.mc" lineNum="14" pc="268435617" symbol="onStop"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsApp.mc" lineNum="18" pc="268435622" symbol="getInitialView"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerFieldTests/source/PowerFieldTestsApp.mc" lineNum="19" pc="268435626" symbol="getInitialView"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="28" pc="268435664" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="30" pc="268435668" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="31" pc="268435686" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="32" pc="268435699" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="33" pc="268435712" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="34" pc="268435725" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="35" pc="268435738" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="36" pc="268435751" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="37" pc="268435764" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="38" pc="268435777" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="39" pc="268435790" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="40" pc="268435827" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="41" pc="268435864" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="42" pc="268435901" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="43" pc="268435938" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="44" pc="268435975" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="45" pc="268436012" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="46" pc="268436049" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="47" pc="268436062" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="48" pc="268436075" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="49" pc="268436088" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="50" pc="268436101" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="51" pc="268436114" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="52" pc="268436127" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="57" pc="268436141" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="58" pc="268436145" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="61" pc="268436164" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="62" pc="268436187" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="66" pc="268436256" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="70" pc="268436325" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="74" pc="268436394" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="78" pc="268436440" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="79" pc="268436447" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="80" pc="268436454" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="81" pc="268436461" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="82" pc="268436504" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="83" pc="268436528" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="84" pc="268436550" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="85" pc="268436557" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="86" pc="268436581" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="87" pc="268436603" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="88" pc="268436610" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="89" pc="268436634" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="90" pc="268436656" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="91" pc="268436663" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="92" pc="268436687" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="93" pc="268436709" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="94" pc="268436716" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="95" pc="268436740" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="96" pc="268436762" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="97" pc="268436769" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="98" pc="268436793" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="99" pc="268436815" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="100" pc="268436822" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="101" pc="268436846" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="102" pc="268436868" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="103" pc="268436875" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="104" pc="268436899" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="105" pc="268436921" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="106" pc="268436928" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="107" pc="268436952" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="108" pc="268436974" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="111" pc="268436981" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="112" pc="268437033" symbol="onLayout"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="119" pc="268437037" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="121" pc="268437041" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="123" pc="268437052" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="124" pc="268437065" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="126" pc="268437084" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="129" pc="268437100" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="131" pc="268437111" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="133" pc="268437124" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="134" pc="268437157" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="135" pc="268437190" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="136" pc="268437223" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="137" pc="268437256" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="138" pc="268437289" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="139" pc="268437322" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="143" pc="268437358" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="144" pc="268437371" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="145" pc="268437384" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="146" pc="268437397" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="147" pc="268437410" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="148" pc="268437423" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="149" pc="268437436" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="151" pc="268437449" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="151" pc="268437469" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="152" pc="268437488" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="152" pc="268437508" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="153" pc="268437527" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="153" pc="268437547" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="154" pc="268437566" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="154" pc="268437586" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="155" pc="268437605" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="155" pc="268437625" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="156" pc="268437644" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="156" pc="268437664" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="157" pc="268437683" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="157" pc="268437703" symbol="compute"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="163" pc="268437726" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="165" pc="268437730" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="168" pc="268437773" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="169" pc="268437797" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="170" pc="268437824" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="172" pc="268437851" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="174" pc="268437875" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="177" pc="268437915" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="178" pc="268437939" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="179" pc="268437963" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="180" pc="268437987" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="181" pc="268438011" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="182" pc="268438035" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="183" pc="268438059" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="184" pc="268438083" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="185" pc="268438110" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="186" pc="268438134" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="187" pc="268438158" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="188" pc="268438182" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="189" pc="268438206" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="190" pc="268438230" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="191" pc="268438254" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="193" pc="268438281" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="194" pc="268438305" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="195" pc="268438329" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="196" pc="268438353" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="197" pc="268438377" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="198" pc="268438401" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="199" pc="268438425" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="201" pc="268438449" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="202" pc="268438471" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="203" pc="268438493" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="204" pc="268438515" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="205" pc="268438537" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="206" pc="268438559" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="207" pc="268438581" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="208" pc="268438603" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="209" pc="268438695" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="210" pc="268438787" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="211" pc="268438879" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="212" pc="268438971" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="213" pc="268439063" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="214" pc="268439155" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerFieldView.mc" lineNum="218" pc="268439247" symbol="onUpdate"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="13" pc="268439268" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="15" pc="268439272" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="16" pc="268439283" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="17" pc="268439296" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="18" pc="268439309" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="19" pc="268439322" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="20" pc="268439332" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="22" pc="268439343" symbol="initialize"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="26" pc="268439371" symbol="update"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="30" pc="268439375" symbol="update"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="31" pc="268439394" symbol="update"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="33" pc="268439443" symbol="update"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="34" pc="268439480" symbol="update"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="36" pc="268439499" symbol="update"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="37" pc="268439515" symbol="update"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="38" pc="268439534" symbol="update"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="40" pc="268439548" symbol="update"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="46" pc="268439567" symbol="update"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="48" pc="268439584" symbol="update"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="50" pc="268439600" symbol="update"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="51" pc="268439619" symbol="update"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="52" pc="268439638" symbol="update"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="53" pc="268439663" symbol="update"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="55" pc="268439679" symbol="update"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="57" pc="268439690" symbol="update"/>
+<entry filename="/Volumes/ParaMobile2T/haroldt_sync/Documents/Workspace/Eclipse/Garmin/Projects/PowerField/source/PowerCalc.mc" lineNum="59" pc="268439771" symbol="update"/>
+<entry filename="Rez" lineNum="19" pc="268439784" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="23" pc="268439796" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="24" pc="268439820" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="25" pc="268439983" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="26" pc="268440008" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="27" pc="268440060" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="28" pc="268440106" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="29" pc="268440269" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="30" pc="268440294" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="31" pc="268440346" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="32" pc="268440392" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="33" pc="268440555" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="34" pc="268440580" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="35" pc="268440632" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="36" pc="268440678" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="37" pc="268440841" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="38" pc="268440866" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="39" pc="268440918" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="40" pc="268440964" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="41" pc="268441127" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="42" pc="268441152" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="43" pc="268441204" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="44" pc="268441250" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="45" pc="268441413" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="46" pc="268441438" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="47" pc="268441490" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="48" pc="268441536" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="49" pc="268441699" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="50" pc="268441724" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="51" pc="268441776" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="52" pc="268441822" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="53" pc="268441985" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="54" pc="268442010" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="55" pc="268442062" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="56" pc="268442108" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="57" pc="268442271" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="58" pc="268442296" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="59" pc="268442348" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="62" pc="268442394" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="71" pc="268442502" symbol="TopLeftLayout"/>
+<entry filename="Rez" lineNum="75" pc="268442514" symbol="TopLeftLayout"/>
+<entry filename="Rez" lineNum="76" pc="268442538" symbol="TopLeftLayout"/>
+<entry filename="Rez" lineNum="77" pc="268442671" symbol="TopLeftLayout"/>
+<entry filename="Rez" lineNum="80" pc="268442804" symbol="TopLeftLayout"/>
+<entry filename="Rez" lineNum="89" pc="268442842" symbol="TopRightLayout"/>
+<entry filename="Rez" lineNum="93" pc="268442854" symbol="TopRightLayout"/>
+<entry filename="Rez" lineNum="94" pc="268442878" symbol="TopRightLayout"/>
+<entry filename="Rez" lineNum="95" pc="268443011" symbol="TopRightLayout"/>
+<entry filename="Rez" lineNum="98" pc="268443144" symbol="TopRightLayout"/>
+<entry filename="Rez" lineNum="107" pc="268443182" symbol="BottomLeftLayout"/>
+<entry filename="Rez" lineNum="111" pc="268443194" symbol="BottomLeftLayout"/>
+<entry filename="Rez" lineNum="112" pc="268443218" symbol="BottomLeftLayout"/>
+<entry filename="Rez" lineNum="113" pc="268443351" symbol="BottomLeftLayout"/>
+<entry filename="Rez" lineNum="116" pc="268443484" symbol="BottomLeftLayout"/>
+<entry filename="Rez" lineNum="125" pc="268443522" symbol="BottomRightLayout"/>
+<entry filename="Rez" lineNum="129" pc="268443534" symbol="BottomRightLayout"/>
+<entry filename="Rez" lineNum="130" pc="268443558" symbol="BottomRightLayout"/>
+<entry filename="Rez" lineNum="131" pc="268443691" symbol="BottomRightLayout"/>
+<entry filename="Rez" lineNum="134" pc="268443824" symbol="BottomRightLayout"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388644" module="true" symbol="System"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry id="8389349" symbol="justification"/>
-<entry field="true" id="34" symbol="mPower1200s"/>
+<entry field="true" id="33" symbol="mPower1200s"/>
 <entry id="11" object="true" symbol="PowerFieldView"/>
-<entry id="24" method="true" symbol="TopLeftLayout"/>
+<entry id="23" method="true" symbol="TopLeftLayout"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-<entry field="true" id="29" symbol="mHeart"/>
-<entry field="true" id="45" symbol="mPeak30s"/>
+<entry field="true" id="28" symbol="mHeart"/>
+<entry field="true" id="44" symbol="mPeak30s"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry field="true" id="8389138" symbol="label"/>
-<entry field="true" id="40" symbol="powerCalc300s"/>
-<entry id="26" method="true" symbol="BottomLeftLayout"/>
+<entry field="true" id="39" symbol="powerCalc300s"/>
+<entry id="25" method="true" symbol="BottomLeftLayout"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry field="true" id="13" symbol="numbers"/>
 <entry id="8389068" method="true" symbol="draw"/>
-<entry field="true" id="48" symbol="mPeak1200s"/>
-<entry field="true" id="43" symbol="powerCalc7200s"/>
-<entry id="23" method="true" symbol="MainLayout"/>
+<entry field="true" id="47" symbol="mPeak1200s"/>
+<entry field="true" id="42" symbol="powerCalc7200s"/>
+<entry id="22" method="true" symbol="MainLayout"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
-<entry field="true" id="38" symbol="powerCalc30s"/>
-<entry field="true" id="42" symbol="powerCalc3600s"/>
+<entry field="true" id="37" symbol="powerCalc30s"/>
+<entry field="true" id="41" symbol="powerCalc3600s"/>
 <entry field="true" id="8389130" symbol="mColor"/>
 <entry id="8389131" method="true" symbol="setColor"/>
-<entry field="true" id="19" symbol="mValue"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="28" symbol="AppName"/>
-<entry field="true" id="46" symbol="mPeak120s"/>
+<entry field="true" id="27" symbol="AppName"/>
+<entry field="true" id="45" symbol="mPeak120s"/>
 <entry field="true" id="15" symbol="curTail"/>
 <entry id="10" object="true" symbol="PowerFieldTestsApp"/>
 <entry id="8390146" module="true" object="true" symbol="Background"/>
-<entry field="true" id="22" symbol="LauncherIcon"/>
-<entry field="true" id="32" symbol="mPower120s"/>
+<entry field="true" id="21" symbol="LauncherIcon"/>
+<entry field="true" id="31" symbol="mPower120s"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry id="18" method="true" symbol="update"/>
 <entry field="true" id="8389065" symbol="locY"/>
@@ -316,135 +287,116 @@
 <entry id="8389137" method="true" symbol="compute"/>
 <entry id="9" object="true" symbol="PowerFieldTestsView"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
-<entry field="true" id="41" symbol="powerCalc1200s"/>
+<entry field="true" id="40" symbol="powerCalc1200s"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry field="true" id="37" symbol="powerCalc3s"/>
-<entry field="true" id="47" symbol="mPeak300s"/>
-<entry id="25" method="true" symbol="TopRightLayout"/>
+<entry field="true" id="36" symbol="powerCalc3s"/>
+<entry field="true" id="46" symbol="mPeak300s"/>
+<entry id="24" method="true" symbol="TopRightLayout"/>
 <entry field="true" id="8388747" symbol="currentHeartRate"/>
 <entry id="8389348" symbol="font"/>
 <entry field="true" id="14" symbol="curHead"/>
 <entry id="8389347" symbol="color"/>
 <entry field="true" id="17" symbol="mLogging"/>
-<entry field="true" id="31" symbol="mPower30s"/>
-<entry field="true" id="44" symbol="mPeak3s"/>
-<entry field="true" id="33" symbol="mPower300s"/>
-<entry field="true" id="36" symbol="mPower7200s"/>
-<entry id="21" module="true" symbol="Layouts"/>
-<entry id="27" method="true" symbol="BottomRightLayout"/>
+<entry field="true" id="30" symbol="mPower30s"/>
+<entry field="true" id="43" symbol="mPeak3s"/>
+<entry field="true" id="32" symbol="mPower300s"/>
+<entry field="true" id="35" symbol="mPower7200s"/>
+<entry id="20" module="true" symbol="Layouts"/>
+<entry id="26" method="true" symbol="BottomRightLayout"/>
 <entry field="true" id="16" symbol="lastTotal"/>
-<entry field="true" id="30" symbol="mPower3s"/>
+<entry field="true" id="29" symbol="mPower3s"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-<entry field="true" id="35" symbol="mPower3600s"/>
+<entry field="true" id="34" symbol="mPower3600s"/>
 <entry field="true" id="8388742" symbol="currentPower"/>
 <entry field="true" id="8389063" symbol="identifier"/>
-<entry id="20" module="true" symbol="Menus"/>
-<entry field="true" id="50" symbol="mPeak7200s"/>
+<entry id="19" module="true" symbol="Menus"/>
+<entry field="true" id="49" symbol="mPeak7200s"/>
 <entry id="12" object="true" symbol="PowerCalc"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-<entry field="true" id="39" symbol="powerCalc120s"/>
-<entry field="true" id="49" symbol="mPeak3600s"/>
+<entry field="true" id="38" symbol="powerCalc120s"/>
+<entry field="true" id="48" symbol="mPeak3600s"/>
 </symbolTable>
 <localVars>
-<entry endPc="268435926" name="valueView" stackId="4" startPc="268435791"/>
-<entry endPc="268435926" name="labelView" stackId="3" startPc="268435791"/>
-<entry endPc="268435981" name="obscurityFlags" stackId="2" startPc="268435496"/>
-<entry endPc="268435982" name="dc" stackId="1" startPc="268435492"/>
-<entry endPc="268436046" name="info" stackId="1" startPc="268435982"/>
-<entry endPc="268436249" name="value" stackId="2" startPc="268436050"/>
-<entry endPc="268436250" name="dc" stackId="1" startPc="268436046"/>
-<entry endPc="268436295" name="dictionary" stackId="1" startPc="268436254"/>
-<entry endPc="268436311" name="color" stackId="1" startPc="268436296"/>
-<entry endPc="268436360" name="dc" stackId="1" startPc="268436311"/>
-<entry endPc="268436388" name="state" stackId="1" startPc="268436383"/>
-<entry endPc="268436393" name="state" stackId="1" startPc="268436388"/>
-<entry endPc="268437752" name="space" stackId="4" startPc="268437211"/>
-<entry endPc="268437752" name="labelView" stackId="6" startPc="268437211"/>
-<entry endPc="268437752" name="powerView7200s" stackId="14" startPc="268437211"/>
-<entry endPc="268437752" name="powerView120s" stackId="10" startPc="268437211"/>
-<entry endPc="268437752" name="powerView300s" stackId="11" startPc="268437211"/>
-<entry endPc="268437752" name="offset" stackId="3" startPc="268437211"/>
-<entry endPc="268437752" name="powerView3600s" stackId="13" startPc="268437211"/>
-<entry endPc="268437752" name="powerView3s" stackId="8" startPc="268437211"/>
-<entry endPc="268437752" name="heartView" stackId="7" startPc="268437211"/>
-<entry endPc="268437752" name="powerView1200s" stackId="12" startPc="268437211"/>
-<entry endPc="268437752" name="powerView30s" stackId="9" startPc="268437211"/>
-<entry endPc="268437752" name="delta" stackId="5" startPc="268437211"/>
-<entry endPc="268437807" name="obscurityFlags" stackId="2" startPc="268436916"/>
-<entry endPc="268437808" name="dc" stackId="1" startPc="268436912"/>
-<entry endPc="268438497" name="info" stackId="1" startPc="268437808"/>
-<entry endPc="268440038" name="power3s" stackId="3" startPc="268438501"/>
-<entry endPc="268440038" name="mPerCent120s" stackId="12" startPc="268438501"/>
-<entry endPc="268440038" name="mPerCent300s" stackId="13" startPc="268438501"/>
-<entry endPc="268440038" name="power7200s" stackId="9" startPc="268438501"/>
-<entry endPc="268440038" name="mPerCent7200s" stackId="16" startPc="268438501"/>
-<entry endPc="268440038" name="power30s" stackId="4" startPc="268438501"/>
-<entry endPc="268440038" name="mPerCent30s" stackId="11" startPc="268438501"/>
-<entry endPc="268440038" name="mPerCent3s" stackId="10" startPc="268438501"/>
-<entry endPc="268440038" name="power120s" stackId="5" startPc="268438501"/>
-<entry endPc="268440038" name="power300s" stackId="6" startPc="268438501"/>
-<entry endPc="268440038" name="power3600s" stackId="8" startPc="268438501"/>
-<entry endPc="268440038" name="mPerCent3600s" stackId="15" startPc="268438501"/>
-<entry endPc="268440038" name="power1200s" stackId="7" startPc="268438501"/>
-<entry endPc="268440038" name="mPerCent1200s" stackId="14" startPc="268438501"/>
-<entry endPc="268440038" name="heart" stackId="2" startPc="268438501"/>
-<entry endPc="268440039" name="dc" stackId="1" startPc="268438497"/>
-<entry endPc="268440142" name="logging" stackId="2" startPc="268440039"/>
-<entry endPc="268440142" name="numEntries" stackId="1" startPc="268440039"/>
-<entry endPc="268440554" name="curSize" stackId="2" startPc="268440146"/>
-<entry endPc="268440555" name="curPower" stackId="1" startPc="268440142"/>
-<entry endPc="268443272" name="rez_cmp_local_bitmap_power300s" stackId="13" startPc="268440567"/>
-<entry endPc="268443272" name="rez_cmp_local_bitmap_power3s" stackId="7" startPc="268440567"/>
-<entry endPc="268443272" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268440567"/>
-<entry endPc="268443272" name="rez_cmp_local_bitmap_power7200s" stackId="19" startPc="268440567"/>
-<entry endPc="268443272" name="rez_cmp_local_bitmap_power30s_fontHeight" stackId="10" startPc="268440567"/>
-<entry endPc="268443272" name="rez_cmp_local_bitmap_power3600s" stackId="17" startPc="268440567"/>
-<entry endPc="268443272" name="rez_cmp_local_bitmap_power120s_fontHeight" stackId="12" startPc="268440567"/>
-<entry endPc="268443272" name="rez_cmp_local_bitmap_power1200s" stackId="15" startPc="268440567"/>
-<entry endPc="268443272" name="rez_cmp_local_custom_drawable_GT5CTVH5LUWBBGIMIF8G" stackId="2" startPc="268440567"/>
-<entry endPc="268443272" name="rez_cmp_local_bitmap_power30s" stackId="9" startPc="268440567"/>
-<entry endPc="268443272" name="rez_cmp_local_bitmap_power300s_fontHeight" stackId="14" startPc="268440567"/>
-<entry endPc="268443272" name="rez_cmp_local_bitmap_power1200s_fontHeight" stackId="16" startPc="268440567"/>
-<entry endPc="268443272" name="rez_cmp_local_bitmap_label_fontHeight" stackId="4" startPc="268440567"/>
-<entry endPc="268443272" name="rez_cmp_local_bitmap_power120s" stackId="11" startPc="268440567"/>
-<entry endPc="268443272" name="rez_cmp_local_bitmap_heart_fontHeight" stackId="6" startPc="268440567"/>
-<entry endPc="268443272" name="rez_cmp_local_bitmap_power3s_fontHeight" stackId="8" startPc="268440567"/>
-<entry endPc="268443272" name="rez_cmp_local_bitmap_heart" stackId="5" startPc="268440567"/>
-<entry endPc="268443272" name="rez_cmp_local_bitmap_power3600s_fontHeight" stackId="18" startPc="268440567"/>
-<entry endPc="268443272" name="rez_cmp_local_bitmap_power7200s_fontHeight" stackId="20" startPc="268440567"/>
-<entry endPc="268443273" name="dc" stackId="1" startPc="268440555"/>
-<entry endPc="268443612" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268443285"/>
-<entry endPc="268443612" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268443285"/>
-<entry endPc="268443612" name="rez_cmp_local_custom_drawable_P2GWS2P2P9QOVD9YCHZ9" stackId="2" startPc="268443285"/>
-<entry endPc="268443613" name="dc" stackId="1" startPc="268443273"/>
-<entry endPc="268443952" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268443625"/>
-<entry endPc="268443952" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268443625"/>
-<entry endPc="268443952" name="rez_cmp_local_custom_drawable_Z89SM486AOZTVXEPCCKA" stackId="2" startPc="268443625"/>
-<entry endPc="268443953" name="dc" stackId="1" startPc="268443613"/>
-<entry endPc="268444292" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268443965"/>
-<entry endPc="268444292" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268443965"/>
-<entry endPc="268444292" name="rez_cmp_local_custom_drawable_3MQW69ODR8F5HGJM34SI" stackId="2" startPc="268443965"/>
-<entry endPc="268444293" name="dc" stackId="1" startPc="268443953"/>
-<entry endPc="268444632" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268444305"/>
-<entry endPc="268444632" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268444305"/>
-<entry endPc="268444632" name="rez_cmp_local_custom_drawable_IGUMAJW3O3N89N2EBMIU" stackId="2" startPc="268444305"/>
-<entry endPc="268444633" name="dc" stackId="1" startPc="268444293"/>
+<entry endPc="268435524" name="dictionary" stackId="1" startPc="268435483"/>
+<entry endPc="268435540" name="color" stackId="1" startPc="268435525"/>
+<entry endPc="268435589" name="dc" stackId="1" startPc="268435540"/>
+<entry endPc="268435617" name="state" stackId="1" startPc="268435612"/>
+<entry endPc="268435622" name="state" stackId="1" startPc="268435617"/>
+<entry endPc="268436981" name="space" stackId="4" startPc="268436440"/>
+<entry endPc="268436981" name="labelView" stackId="6" startPc="268436440"/>
+<entry endPc="268436981" name="powerView7200s" stackId="14" startPc="268436440"/>
+<entry endPc="268436981" name="powerView120s" stackId="10" startPc="268436440"/>
+<entry endPc="268436981" name="powerView300s" stackId="11" startPc="268436440"/>
+<entry endPc="268436981" name="offset" stackId="3" startPc="268436440"/>
+<entry endPc="268436981" name="powerView3600s" stackId="13" startPc="268436440"/>
+<entry endPc="268436981" name="powerView3s" stackId="8" startPc="268436440"/>
+<entry endPc="268436981" name="heartView" stackId="7" startPc="268436440"/>
+<entry endPc="268436981" name="powerView1200s" stackId="12" startPc="268436440"/>
+<entry endPc="268436981" name="powerView30s" stackId="9" startPc="268436440"/>
+<entry endPc="268436981" name="delta" stackId="5" startPc="268436440"/>
+<entry endPc="268437036" name="obscurityFlags" stackId="2" startPc="268436145"/>
+<entry endPc="268437037" name="dc" stackId="1" startPc="268436141"/>
+<entry endPc="268437726" name="info" stackId="1" startPc="268437037"/>
+<entry endPc="268439267" name="power3s" stackId="3" startPc="268437730"/>
+<entry endPc="268439267" name="mPerCent120s" stackId="12" startPc="268437730"/>
+<entry endPc="268439267" name="mPerCent300s" stackId="13" startPc="268437730"/>
+<entry endPc="268439267" name="power7200s" stackId="9" startPc="268437730"/>
+<entry endPc="268439267" name="mPerCent7200s" stackId="16" startPc="268437730"/>
+<entry endPc="268439267" name="power30s" stackId="4" startPc="268437730"/>
+<entry endPc="268439267" name="mPerCent30s" stackId="11" startPc="268437730"/>
+<entry endPc="268439267" name="mPerCent3s" stackId="10" startPc="268437730"/>
+<entry endPc="268439267" name="power120s" stackId="5" startPc="268437730"/>
+<entry endPc="268439267" name="power300s" stackId="6" startPc="268437730"/>
+<entry endPc="268439267" name="power3600s" stackId="8" startPc="268437730"/>
+<entry endPc="268439267" name="mPerCent3600s" stackId="15" startPc="268437730"/>
+<entry endPc="268439267" name="power1200s" stackId="7" startPc="268437730"/>
+<entry endPc="268439267" name="mPerCent1200s" stackId="14" startPc="268437730"/>
+<entry endPc="268439267" name="heart" stackId="2" startPc="268437730"/>
+<entry endPc="268439268" name="dc" stackId="1" startPc="268437726"/>
+<entry endPc="268439371" name="logging" stackId="2" startPc="268439268"/>
+<entry endPc="268439371" name="numEntries" stackId="1" startPc="268439268"/>
+<entry endPc="268439783" name="curSize" stackId="2" startPc="268439375"/>
+<entry endPc="268439784" name="curPower" stackId="1" startPc="268439371"/>
+<entry endPc="268442501" name="rez_cmp_local_bitmap_power300s" stackId="13" startPc="268439796"/>
+<entry endPc="268442501" name="rez_cmp_local_bitmap_power3s" stackId="7" startPc="268439796"/>
+<entry endPc="268442501" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268439796"/>
+<entry endPc="268442501" name="rez_cmp_local_bitmap_power7200s" stackId="19" startPc="268439796"/>
+<entry endPc="268442501" name="rez_cmp_local_bitmap_power30s_fontHeight" stackId="10" startPc="268439796"/>
+<entry endPc="268442501" name="rez_cmp_local_bitmap_power3600s" stackId="17" startPc="268439796"/>
+<entry endPc="268442501" name="rez_cmp_local_bitmap_power120s_fontHeight" stackId="12" startPc="268439796"/>
+<entry endPc="268442501" name="rez_cmp_local_bitmap_power1200s" stackId="15" startPc="268439796"/>
+<entry endPc="268442501" name="rez_cmp_local_bitmap_power30s" stackId="9" startPc="268439796"/>
+<entry endPc="268442501" name="rez_cmp_local_bitmap_power300s_fontHeight" stackId="14" startPc="268439796"/>
+<entry endPc="268442501" name="rez_cmp_local_bitmap_power1200s_fontHeight" stackId="16" startPc="268439796"/>
+<entry endPc="268442501" name="rez_cmp_local_bitmap_label_fontHeight" stackId="4" startPc="268439796"/>
+<entry endPc="268442501" name="rez_cmp_local_bitmap_power120s" stackId="11" startPc="268439796"/>
+<entry endPc="268442501" name="rez_cmp_local_bitmap_heart_fontHeight" stackId="6" startPc="268439796"/>
+<entry endPc="268442501" name="rez_cmp_local_bitmap_power3s_fontHeight" stackId="8" startPc="268439796"/>
+<entry endPc="268442501" name="rez_cmp_local_bitmap_heart" stackId="5" startPc="268439796"/>
+<entry endPc="268442501" name="rez_cmp_local_bitmap_power3600s_fontHeight" stackId="18" startPc="268439796"/>
+<entry endPc="268442501" name="rez_cmp_local_custom_drawable_ZB7BWATNSHAXSY8LA3MH" stackId="2" startPc="268439796"/>
+<entry endPc="268442501" name="rez_cmp_local_bitmap_power7200s_fontHeight" stackId="20" startPc="268439796"/>
+<entry endPc="268442502" name="dc" stackId="1" startPc="268439784"/>
+<entry endPc="268442841" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268442514"/>
+<entry endPc="268442841" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268442514"/>
+<entry endPc="268442841" name="rez_cmp_local_custom_drawable_435LXU82CANE3FIRDCEP" stackId="2" startPc="268442514"/>
+<entry endPc="268442842" name="dc" stackId="1" startPc="268442502"/>
+<entry endPc="268443181" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268442854"/>
+<entry endPc="268443181" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268442854"/>
+<entry endPc="268443181" name="rez_cmp_local_custom_drawable_0CGTZVZPE1B85VBDB8R8" stackId="2" startPc="268442854"/>
+<entry endPc="268443182" name="dc" stackId="1" startPc="268442842"/>
+<entry endPc="268443521" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268443194"/>
+<entry endPc="268443521" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268443194"/>
+<entry endPc="268443521" name="rez_cmp_local_custom_drawable_6789HAHDMZJURBVVHV09" stackId="2" startPc="268443194"/>
+<entry endPc="268443522" name="dc" stackId="1" startPc="268443182"/>
+<entry endPc="268443861" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268443534"/>
+<entry endPc="268443861" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268443534"/>
+<entry endPc="268443861" name="rez_cmp_local_custom_drawable_6HQI0U3SIWHMKLMLKQLS" stackId="2" startPc="268443534"/>
+<entry endPc="268443862" name="dc" stackId="1" startPc="268443522"/>
 </localVars>
 <annotations/>
 <functions>
 <functionEntry accessMode="public" name="initialize" parent="PowerFieldTestsView">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onLayout" parent="PowerFieldTestsView">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="compute" parent="PowerFieldTestsView">
-<param id="info"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onUpdate" parent="PowerFieldTestsView">
-<param id="dc"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="Background">
@@ -522,14 +474,14 @@
 <dataEntry offset="214" parentId="globals" symbolId="PowerCalc" type="class"/>
 <dataEntry offset="309" parentId="globals" symbolId="Background" type="class"/>
 <dataEntry offset="380" parentId="globals" symbolId="PowerFieldTestsView" type="class"/>
-<dataEntry offset="459" parentId="globals" symbolId="PowerFieldTestsApp" type="class"/>
-<dataEntry offset="530" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry offset="609" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry offset="648" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry offset="679" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry offset="710" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry offset="741" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry offset="812" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry offset="859" parentId="globals" symbolId="PowerFieldView" type="class"/>
+<dataEntry offset="427" parentId="globals" symbolId="PowerFieldTestsApp" type="class"/>
+<dataEntry offset="498" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="577" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="616" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="647" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="678" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="709" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="780" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="827" parentId="globals" symbolId="PowerFieldView" type="class"/>
 </dataEntryOffsetMappings>
 </debugInfo>
