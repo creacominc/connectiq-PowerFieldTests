@@ -16,7 +16,7 @@ class PowerFieldTestsApp extends App.AppBase {
 
     //! Return the initial view of your application here
     function getInitialView() {
-        return [ new PowerFieldTestsView() ];
+        return [ new PowerFieldViewMock() ];
     }
 
 }
