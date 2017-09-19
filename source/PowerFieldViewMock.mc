@@ -1,84 +1,76 @@
+using Toybox.Application as App;
 
 
 class PowerFieldViewMock extends PowerFieldView
 {
-    protected var activityMonitorInfo = new ActivityMonitorInfoMock();
 
     function initialize()
     {
+        var app = Application.getApp();
+        app.setProperties();
         PowerFieldView.initialize();
     }
 
-    function getActivityMonitorInfo()
+
+    function getHearts()
     {
-        return activityMonitorInfo;
+            return m_hearts;
     }
-
-    function setActivityMonitorInfo(info)
-    {
-        activityMonitorInfo = info;
-    }
-
-
-    function getHeart()
-    {
-            return mHeart;
-        }
     function getPower3s()
     {
-            return mPower3s;
-        }
+            return m_powerIntervalSet.getAverage(0);
+    }
     function getPower30s()
     {
-            return mPower30s;
-        }
+            return m_powerIntervalSet.getAverage(1);
+    }
     function getPower120s()
     {
-            return mPower120s;
-        }
+            return m_powerIntervalSet.getAverage(2);
+    }
     function getPower300s()
     {
-            return mPower300s;
-        }
+            return m_powerIntervalSet.getAverage(3);
+    }
     function getPower1200s()
     {
-            return mPower1200s;
-        }
+            return m_powerIntervalSet.getAverage(4);
+    }
     function getPower3600s()
     {
-            return mPower3600s;
-        }
+            return m_powerIntervalSet.getAverage(5);
+    }
     function getPower7200s()
     {
-            return mPower7200s;
-        }
+            return m_powerIntervalSet.getAverage(6);
+    }
     function getPeak3s()
     {
-            return mPeak3s;
-        }
+            return m_powerIntervalSet.getPeak(0);
+    }
     function getPeak30s()
     {
-            return mPeak30s;
-        }
+            return m_powerIntervalSet.getPeak(1);
+    }
     function getPeak120s()
     {
-            return mPeak120s;
-        }
+            return m_powerIntervalSet.getPeak(2);
+    }
     function getPeak300s()
     {
-            return mPeak300s;
-        }
+            return m_powerIntervalSet.getPeak(3);
+    }
     function getPeak1200s()
     {
-            return mPeak1200s;
-        }
+            return m_powerIntervalSet.getPeak(4);
+    }
     function getPeak3600s()
     {
-            return mPeak3600s;
-        }
+            return m_powerIntervalSet.getPeak(5);
+    }
     function getPeak7200s()
     {
-            return mPeak7200s;
-        }
+           return m_powerIntervalSet.getPeak(6);
+    }
 
 }

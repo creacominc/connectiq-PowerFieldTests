@@ -1,9 +1,10 @@
+using Toybox.System;
 
 // confirm the value in the heart rate field.
 function confirmHeartRateIs(view, value)
 {
-    var mHeart            = view.getHeart();
-    Toybox.Test.assertEqualMessage(mHeart, value, "mHeart (" + mHeart + ") is expected to be " + value);
+    var mHearts            = view.getHearts();
+    Toybox.Test.assertEqualMessage(mHearts[0], value, "mHeart (" + mHearts[0] + ") is expected to be " + value);
     return true;
 }
 
@@ -79,7 +80,7 @@ function confirmAllPowerFieldsAreZero(view)
 {
     for(var indx=0; indx < 14; indx++)
     {
-        confirmPowerFieldIs(view, indx, 0.0);
+        confirmPowerFieldIs(view, indx, 0);
     }
     return true;
 }
@@ -87,7 +88,7 @@ function confirmAllPowerFieldsAreZero(view)
 // confirm all fields are zero.  This can be called by multiple tests
 function confirmAllFieldsAreZero(view)
 {
-    confirmHeartRateIs(view, 0.0);
+    confirmHeartRateIs(view, 0);
     confirmAllPowerFieldsAreZero(view);
     return true;
 }
@@ -99,8 +100,8 @@ function expectedAverage(value, step, steps)
     var minimum = (value - steps);
     if(minimum < 1)
     {
-            minimum = 0;
-        }
+        minimum = 0;
+    }
     while( value > minimum )
     {
         rval += value;
@@ -138,7 +139,11 @@ function computeDoesNothingIfNoInfo(logger)
 class ActivityInfoMockWithFields
 {
     var currentHeartRate = 0;
+    var averageHeartRate = 0;
+    var maxHeartRate = 0;
     var currentPower = 0;
+    var averagePower = 0;
+    var maxPower = 0;
 }
 
 (:test)  // all values should be zero if the timer has not started.
@@ -155,6 +160,8 @@ function computeDoesNothingIfNoTimer(logger)
 class ActivityInfoMockHeartDataOnly
 {
     var currentHeartRate = 0;
+    var averageHeartRate = 0;
+    var maxHeartRate = 0;
     //var currentPower = 0;
 }
 
@@ -180,7 +187,11 @@ function computeHeartRateOnly(logger)
 class ActivityInfoMockWithData
 {
     var currentHeartRate = 0;
+    var averageHeartRate = 0;
+    var maxHeartRate = 0;
     var currentPower = 0;
+    var averagePower = 0;
+    var maxPower = 0;
 }
 
 (:test)  // confirm caculation of power averages and peaks.
@@ -194,11 +205,12 @@ function computePowerAveragesAndPeaks(logger)
     rcode = rcode && confirmAllFieldsAreZero(view);
     // start the timer
     view.onTimerStart(); //! mark the timer as started.
-    var sumOfPowers = 0.0;
+    var sumOfPowers = 0;
     // The timers go up to 2 hours and count each second so we should send 60*60*2 updates.
     for(var step=1; step <= 60*60*2; step++)
     {
-        activityInfoMockWithData.currentHeartRate = 121.0;
+        System.println("computePowerAveragesAndPeaks - step=" + step);
+        activityInfoMockWithData.currentHeartRate = 121;
         activityInfoMockWithData.currentPower = step;
         view.compute(activityInfoMockWithData);
         confirmHeartRateIs(view, activityInfoMockWithData.currentHeartRate);
