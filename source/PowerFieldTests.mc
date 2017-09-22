@@ -119,12 +119,6 @@ function initialValuesAreZero(logger)
 }
 
 
-class ActivityInfoMockNoFields
-{
-    //var currentHeartRate = 0;
-    //var currentPower = 0;
-}
-
 (:test) // all values should be zero if the activity info does not provide heart rate or power even if the timer is running.
 function computeDoesNothingIfNoInfo(logger)
 {
@@ -136,34 +130,17 @@ function computeDoesNothingIfNoInfo(logger)
 }
 
 
-class ActivityInfoMockWithFields
-{
-    var currentHeartRate = 0;
-    var averageHeartRate = 0;
-    var maxHeartRate = 0;
-    var currentPower = 0;
-    var averagePower = 0;
-    var maxPower = 0;
-}
 
 (:test)  // all values should be zero if the timer has not started.
 function computeDoesNothingIfNoTimer(logger)
 {
-    var activityInfoMockWithFields = new ActivityInfoMockWithFields();
+    var activityInfoMockWithData = new ActivityInfoMockWithData();
     var view = new PowerFieldViewMock();
-    view.compute(activityInfoMockWithFields);
+    view.compute(activityInfoMockWithData);
     return confirmAllFieldsAreZero(view);
 }
 
 
-
-class ActivityInfoMockHeartDataOnly
-{
-    var currentHeartRate = 0;
-    var averageHeartRate = 0;
-    var maxHeartRate = 0;
-    //var currentPower = 0;
-}
 
 (:test)  // heart rate should provide data if the timer is running.
 function computeHeartRateOnly(logger)
@@ -183,16 +160,6 @@ function computeHeartRateOnly(logger)
     return rcode;
 }
 
-
-class ActivityInfoMockWithData
-{
-    var currentHeartRate = 0;
-    var averageHeartRate = 0;
-    var maxHeartRate = 0;
-    var currentPower = 0;
-    var averagePower = 0;
-    var maxPower = 0;
-}
 
 (:test)  // confirm caculation of power averages and peaks.
 function computePowerAveragesAndPeaks(logger)
