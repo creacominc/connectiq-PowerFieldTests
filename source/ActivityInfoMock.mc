@@ -10,6 +10,10 @@ class ActivityInfoMockNoFields
  */
 class ActivityInfoMockHeartDataOnly  extends ActivityInfoMockNoFields
 {
+    function initialize()
+    {
+        ActivityInfoMockNoFields.initialize();
+    }
     var currentHeartRate = 0;
     var averageHeartRate = 0;
     var maxHeartRate = 0;
@@ -18,8 +22,12 @@ class ActivityInfoMockHeartDataOnly  extends ActivityInfoMockNoFields
 /**
  * ActivityInfoMockWithData represents the system with all data items available.
  */
-class ActivityInfoMockWithData
+class ActivityInfoMockWithData extends ActivityInfoMockNoFields
 {
+    function initialize()
+    {
+        ActivityInfoMockNoFields.initialize();
+    }
     var currentHeartRate = 0;
     var averageHeartRate = 0;
     var maxHeartRate = 0;

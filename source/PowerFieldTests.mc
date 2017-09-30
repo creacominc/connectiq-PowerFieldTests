@@ -198,11 +198,11 @@ function computePowerAveragesAndPeaks(logger)
         //confirmPowerFieldIs(view, 10, expectedAverage(step, step, 300));
         //confirmPowerFieldIs(view, 4, expectedAverage(step, step, 1200));
         //confirmPowerFieldIs(view, 11, expectedAverage(step, step, 1200));
-        //if(step>3600)
-        //{
-        //    confirmPowerFieldIs(view, 5, expectedAverage(step, step, 3600));
-        //    confirmPowerFieldIs(view, 12, expectedAverage(step, step, 3600));
-        //}
+        if(step>3600)
+        {
+            confirmPowerFieldIs(view, 5, expectedAverage(step, step, 3600));
+            confirmPowerFieldIs(view, 12, expectedAverage(step, step, 3600));
+        }
         if(step>7200)
         {
             confirmPowerFieldIs(view, 6, expectedAverage(step, step, 7200));
