@@ -1,121 +1,10 @@
 using Toybox.System;
 
-// confirm the value in the heart rate field.
-function confirmHeartRateIs(view, value)
-{
-    var mHearts            = view.getHearts();
-    Toybox.Test.assertEqualMessage(mHearts[0], value, "mHeart (" + mHearts[0] + ") is expected to be " + value);
-    return true;
-}
-
-// confirm the value in a given power field.
-function confirmPowerFieldIs(view, fieldIndex, value)
-{
-    switch(fieldIndex)
-    {
-        case 0:
-            var mPower3s          = view.getPower3s();
-            Toybox.Test.assertEqualMessage(mPower3s, value, "mPower3s (" + mPower3s + ") is expected to be " + value);
-            break;
-        case 1:
-            var mPower30s         = view.getPower30s();
-            Toybox.Test.assertEqualMessage(mPower30s, value, "mPower30s (" + mPower30s + ") is expected to be " + value);
-            break;
-        case 2:
-            var mPower120s        = view.getPower120s();
-            Toybox.Test.assertEqualMessage(mPower120s, value, "mPower120s (" + mPower120s + ") is expected to be " + value);
-            break;
-        case 3:
-            var mPower300s        = view.getPower300s();
-            Toybox.Test.assertEqualMessage(mPower300s, value, "mPower300s (" + mPower300s + ") is expected to be " + value);
-            break;
-        case 4:
-            var mPower1200s       = view.getPower1200s();
-            Toybox.Test.assertEqualMessage(mPower1200s, value, "mPower1200s (" + mPower1200s + ") is expected to be " + value);
-            break;
-        case 5:
-            var mPower3600s       = view.getPower3600s();
-            Toybox.Test.assertEqualMessage(mPower3600s, value, "mPower3600s (" + mPower3600s + ") is expected to be " + value);
-            break;
-        case 6:
-            var mPower7200s       = view.getPower7200s();
-            Toybox.Test.assertEqualMessage(mPower7200s, value, "mPower7200s (" + mPower7200s + ") is expected to be " + value);
-            break;
-        case 7:
-            var mPeak3s           = view.getPeak3s();
-            Toybox.Test.assertEqualMessage(mPeak3s, value, "mPeak3s (" + mPeak3s + ") is expected to be " + value);
-            break;
-        case 8:
-            var mPeak30s          = view.getPeak30s();
-            Toybox.Test.assertEqualMessage(mPeak30s, value, "mPeak30s (" + mPeak30s + ") is expected to be " + value);
-            break;
-        case 9:
-            var mPeak120s         = view.getPeak120s();
-            Toybox.Test.assertEqualMessage(mPeak120s, value, "mPeak120s (" + mPeak120s + ") is expected to be " + value);
-            break;
-        case 10:
-            var mPeak300s         = view.getPeak300s();
-            Toybox.Test.assertEqualMessage(mPeak300s, value, "mPeak300s (" + mPeak300s + ") is expected to be " + value);
-            break;
-        case 11:
-            var mPeak1200s        = view.getPeak1200s();
-            Toybox.Test.assertEqualMessage(mPeak1200s, value, "mPeak1200s (" + mPeak1200s + ") is expected to be " + value);
-            break;
-        case 12:
-            var mPeak3600s        = view.getPeak3600s();
-            Toybox.Test.assertEqualMessage(mPeak3600s, value, "mPeak3600s (" + mPeak3600s + ") is expected to be " + value);
-            break;
-        case 13:
-            var mPeak7200s        = view.getPeak7200s();
-            Toybox.Test.assertEqualMessage(mPeak7200s, value, "mPeak7200s (" + mPeak7200s + ") is expected to be " + value);
-            break;
-        default:
-            Toybox.Test.assertMessage(false, "Invalid power index: " + fieldIndex);
-    }
-    return true;
-}
-
-// confirm all power fields are zero.
-function confirmAllPowerFieldsAreZero(view)
-{
-    for(var indx=0; indx < 14; indx++)
-    {
-        confirmPowerFieldIs(view, indx, 0);
-    }
-    return true;
-}
-
-// confirm all fields are zero.  This can be called by multiple tests
-function confirmAllFieldsAreZero(view)
-{
-    confirmHeartRateIs(view, 0);
-    confirmAllPowerFieldsAreZero(view);
-    return true;
-}
-
-// return the sum of values from the given value for the number of steps
-function expectedAverage(value, step, steps)
-{
-    var rval = 0;
-    var minimum = (value - steps);
-    if(minimum < 1)
-    {
-        minimum = 0;
-    }
-    while( value > minimum )
-    {
-        rval += value;
-        value--;
-    }
-    return rval / ((step<steps) ? step : steps);
-}
-
-
 (:test)  // all values should be zero on initialization.
 function initialValuesAreZero(logger)
 {
     var view = new PowerFieldViewMock();
-    return confirmAllFieldsAreZero(view);
+    return confirmAllFieldsAreZero(view, logger);
 }
 
 
@@ -126,7 +15,7 @@ function computeDoesNothingIfNoInfo(logger)
     var view = new PowerFieldViewMock();
     view.onTimerStart(); //! mark the timer as started.
     view.compute(activityInfoMockNoFields);
-    return confirmAllFieldsAreZero(view);
+    return confirmAllFieldsAreZero(view, logger);
 }
 
 
@@ -137,7 +26,7 @@ function computeDoesNothingIfNoTimer(logger)
     var activityInfoMockWithData = new ActivityInfoMockWithData();
     var view = new PowerFieldViewMock();
     view.compute(activityInfoMockWithData);
-    return confirmAllFieldsAreZero(view);
+    return confirmAllFieldsAreZero(view, logger);
 }
 
 
@@ -150,13 +39,13 @@ function computeHeartRateOnly(logger)
     var view = new PowerFieldViewMock();
     // test once before the timer starts
     view.compute(activityInfoMockHeartDataOnly);
-    rcode = rcode && confirmAllFieldsAreZero(view);
+    rcode = rcode && confirmAllFieldsAreZero(view, logger);
     // start the timer
     view.onTimerStart(); //! mark the timer as started.
     // test again and you should get a heart rate.
     activityInfoMockHeartDataOnly.currentHeartRate = 142.0;
     view.compute(activityInfoMockHeartDataOnly);
-    rcode = rcode && confirmHeartRateIs(view, 142.0)  && confirmAllPowerFieldsAreZero(view);
+    rcode = rcode && confirmHeartRateIs(view, 142.0)  && confirmAllPowerFieldsAreZero(view, logger);
     return rcode;
 }
 
@@ -169,7 +58,7 @@ function computePowerAveragesAndPeaks(logger)
     var view = new PowerFieldViewMock();
     // test once before the timer starts
     view.compute(activityInfoMockWithData);
-    rcode = rcode && confirmAllFieldsAreZero(view);
+    rcode = rcode && confirmAllFieldsAreZero(view, logger);
     // start the timer
     view.onTimerStart(); //! mark the timer as started.
     var sumOfPowers = 0;
@@ -181,32 +70,43 @@ function computePowerAveragesAndPeaks(logger)
         activityInfoMockWithData.currentPower = step;
         view.compute(activityInfoMockWithData);
         confirmHeartRateIs(view, activityInfoMockWithData.currentHeartRate);
+
+        logger.debug("step=" + step);
         // confirm 3 second average
         if(step>3)
         {
-            confirmPowerFieldIs(view, 0, expectedAverage(step, step, 3));
-            confirmPowerFieldIs(view, 7, expectedAverage(step, step, 3));
+            confirmPowerFieldIs(view, 0, expectedAverage(step, step, 3, logger), logger);
+            confirmPowerFieldIs(view, 7, expectedAverage(step, step, 3, logger), logger);
         }
-        if(step>30)
+        if(false && step>30)
         {
-            confirmPowerFieldIs(view, 1, expectedAverage(step, step, 30));
-            confirmPowerFieldIs(view, 8, expectedAverage(step, step, 30));
+            confirmPowerFieldIs(view, 1, expectedAverage(step, step, 30, logger), logger);
+            confirmPowerFieldIs(view, 8, expectedAverage(step, step, 30, logger), logger);
         }
-        //confirmPowerFieldIs(view, 2, expectedAverage(step, step, 120));
-        //confirmPowerFieldIs(view, 9, expectedAverage(step, step, 120));
-        //confirmPowerFieldIs(view, 3, expectedAverage(step, step, 300));
-        //confirmPowerFieldIs(view, 10, expectedAverage(step, step, 300));
-        //confirmPowerFieldIs(view, 4, expectedAverage(step, step, 1200));
-        //confirmPowerFieldIs(view, 11, expectedAverage(step, step, 1200));
-        if(step>3600)
+        if(false && step>120)
         {
-            confirmPowerFieldIs(view, 5, expectedAverage(step, step, 3600));
-            confirmPowerFieldIs(view, 12, expectedAverage(step, step, 3600));
+            confirmPowerFieldIs(view, 2, expectedAverage(step, step, 120, logger), logger);
+            confirmPowerFieldIs(view, 9, expectedAverage(step, step, 120, logger), logger);
         }
-        if(step>7200)
+        if(false && step>300)
         {
-            confirmPowerFieldIs(view, 6, expectedAverage(step, step, 7200));
-            confirmPowerFieldIs(view, 13, expectedAverage(step, step, 7200));
+            confirmPowerFieldIs(view, 3, expectedAverage(step, step, 300, logger), logger);
+            confirmPowerFieldIs(view, 10, expectedAverage(step, step, 300, logger), logger);
+        }
+        if(false && step>1200)
+        {
+            confirmPowerFieldIs(view, 4, expectedAverage(step, step, 1200, logger), logger);
+            confirmPowerFieldIs(view, 11, expectedAverage(step, step, 1200, logger), logger);
+        }
+        if(false && step>3600)
+        {
+            confirmPowerFieldIs(view, 5, expectedAverage(step, step, 3600, logger), logger);
+            confirmPowerFieldIs(view, 12, expectedAverage(step, step, 3600, logger), logger);
+        }
+        if(false && step>7200)
+        {
+            confirmPowerFieldIs(view, 6, expectedAverage(step, step, 7200, logger), logger);
+            confirmPowerFieldIs(view, 13, expectedAverage(step, step, 7200, logger), logger);
         }
     }
     return rcode;
