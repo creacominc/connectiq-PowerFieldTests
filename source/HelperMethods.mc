@@ -95,19 +95,19 @@ function confirmAllFieldsAreZero(view, logger)
 }
 
 // return the sum of values from the given value for the number of steps
-function expectedAverage(value, step, steps, logger)
+function expectedAverage(currentStep, stepsInThisAverage, logger)
 {
     var rval = 0;
-    var minimum = (value - steps);
-    logger.debug("expectedAverage( value=" + value + ", step=" + step + ", steps=" + steps + ", logger)" );
+    var minimum = (currentStep - stepsInThisAverage);
+    logger.debug("expectedAverage( currentStep=" + currentStep + ", stepsInThisAverage=" + stepsInThisAverage + ", logger)" );
     if(minimum < 1)
     {
         minimum = 0;
     }
-    while( value > minimum )
+    while( currentStep > minimum )
     {
-        rval += value;
-        value--;
+        rval += currentStep;
+        currentStep--;
     }
-    return rval / ((step<steps) ? step : steps);
+    return rval / stepsInThisAverage;
 }
