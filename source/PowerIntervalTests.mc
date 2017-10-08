@@ -141,6 +141,10 @@ function testPowerIntervalInitializeDurationDisplay(logger)
 }
 
 
+/**
+ * This is not so much a unit test as a debugging tool.
+ * This test shows how the power values are stored and used.
+ */
 (:test) // powerInterval update
 function testPowerIntervalUpdate(logger)
 {
@@ -159,9 +163,9 @@ function testPowerIntervalUpdate(logger)
     {
         for(var curHead=0; curHead<numIntervals; curHead++)
         {
-            numbers[curHead] = (((lap+1)*(curHead+1)) * 10);
-            //logger.debug("Head="+curHead);
-            //logger.debug(numbers);
+            numbers[curHead] = (((lap*numIntervals)+(curHead+1)) * 10);
+            logger.debug("Head="+curHead);
+            logger.debug(numbers);
             powerInterval0.update( curHead, numbers );
         }
     }
