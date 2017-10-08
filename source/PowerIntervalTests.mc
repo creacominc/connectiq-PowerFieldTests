@@ -144,6 +144,27 @@ function testPowerIntervalInitializeDurationDisplay(logger)
 (:test) // powerInterval update
 function testPowerIntervalUpdate(logger)
 {
+    // set up a collection of powers
+    var numIntervals = 6;
+    var numbers = new [numIntervals];
+    // set the application properties for this test
+    var properties = {
+        "Time0" => 3,
+        "Target0" => 66
+    };
+    // create the interval for 3 seconds
+    var powerInterval0 = new PowerIntervalMock(properties, 0, 1);
+    // update through the time slots twice
+    for(var lap=0; lap<2; lap++)
+    {
+        for(var curHead=0; curHead<numIntervals; curHead++)
+        {
+            numbers[curHead] = (((lap+1)*(curHead+1)) * 10);
+            //logger.debug("Head="+curHead);
+            //logger.debug(numbers);
+            powerInterval0.update( curHead, numbers );
+        }
+    }
     return true;
 }
 
