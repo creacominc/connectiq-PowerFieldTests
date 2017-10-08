@@ -11,24 +11,9 @@ class PowerFieldTestsApp extends App.AppBase
         AppBase.initialize();
     }
 
-    function setProperties()
+    function setProperties(properties)
     {
-        m_properties = {
-            "Time0" => 3,
-            "Target0" => 923,
-            "Time1" => 30,
-            "Target1" => 549,
-            "Time2" => 60,
-            "Target2" => 431,
-            "Time3" => 240,
-            "Target3" => 283,
-            "Time4" => 1200,
-            "Target4" => 236,
-            "Time5" => 3600,
-            "Target5" => 184,
-            "Time6" => 7200,
-            "Target6" => 152
-        };
+        m_properties = properties;
     }
 
     // onStart() is called on application start up
@@ -54,6 +39,8 @@ class PowerFieldTestsApp extends App.AppBase
 
     function getProperty(key)
     {
+        //System.print("getProperty(" + key + ") == ");
+        //System.println(m_properties.get(key));
         return m_properties.get(key);
     }
 

@@ -6,8 +6,24 @@ class PowerFieldViewMock extends PowerFieldView
 
     function initialize()
     {
+        var properties = {
+            "Time0" => 3,
+            "Target0" => 923,
+            "Time1" => 30,
+            "Target1" => 549,
+            "Time2" => 60,
+            "Target2" => 431,
+            "Time3" => 240,
+            "Target3" => 283,
+            "Time4" => 1200,
+            "Target4" => 236,
+            "Time5" => 3600,
+            "Target5" => 184,
+            "Time6" => 7200,
+            "Target6" => 152
+        };
         var app = Application.getApp();
-        app.setProperties();
+        app.setProperties(properties);
         PowerFieldView.initialize();
     }
 

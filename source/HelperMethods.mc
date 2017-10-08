@@ -11,7 +11,7 @@ function confirmHeartRateIs(view, value)
 // confirm the value in a given power field.
 function confirmPowerFieldIs(view, fieldIndex, value, logger)
 {
-    logger.debug("confirmPowerFieldIs(view, fieldIndex=" + fieldIndex + ", value=" + value + ", logger)");
+    //logger.debug("confirmPowerFieldIs(view, fieldIndex=" + fieldIndex + ", value=" + value + ", logger)");
     switch(fieldIndex)
     {
         case 0:
@@ -99,7 +99,7 @@ function expectedAverage(currentStep, stepsInThisAverage, logger)
 {
     var rval = 0;
     var minimum = (currentStep - stepsInThisAverage);
-    logger.debug("expectedAverage( currentStep=" + currentStep + ", stepsInThisAverage=" + stepsInThisAverage + ", logger)" );
+    //logger.debug("expectedAverage( currentStep=" + currentStep + ", stepsInThisAverage=" + stepsInThisAverage + ", logger)" );
     if(minimum < 1)
     {
         minimum = 0;

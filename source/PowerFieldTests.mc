@@ -111,7 +111,7 @@ function computePowerAveragesAndPeaks(logger)
         view.compute(activityInfoMockWithData);
         confirmHeartRateIs(view, activityInfoMockWithData.currentHeartRate);
 
-        logger.debug("step=" + step);
+        //logger.debug("step=" + step);
         // confirm 3 second average
         if(step>3)
         {
