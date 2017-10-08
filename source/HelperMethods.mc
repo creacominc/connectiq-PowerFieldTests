@@ -93,21 +93,3 @@ function confirmAllFieldsAreZero(view, logger)
     confirmAllPowerFieldsAreZero(view, logger);
     return true;
 }
-
-// return the sum of values from the given value for the number of steps
-function expectedAverage(currentStep, stepsInThisAverage, logger)
-{
-    var rval = 0;
-    var minimum = (currentStep - stepsInThisAverage);
-    //logger.debug("expectedAverage( currentStep=" + currentStep + ", stepsInThisAverage=" + stepsInThisAverage + ", logger)" );
-    if(minimum < 1)
-    {
-        minimum = 0;
-    }
-    while( currentStep > minimum )
-    {
-        rval += currentStep;
-        currentStep--;
-    }
-    return rval / stepsInThisAverage;
-}
