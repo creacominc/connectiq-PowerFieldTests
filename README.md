@@ -1,3 +1,5 @@
+![Build Status](https://travis-ci.org/creacominc/connectiq-PowerFieldTests.svg?branch=master)  Continuous Integration at: (https://travis-ci.org/creacominc/connectiq-PowerFieldTests)
+
 # connectiq-PowerFieldTests
 Unit tests for connectiq-PowerField
 

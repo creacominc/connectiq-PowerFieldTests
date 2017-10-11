@@ -2,11 +2,8 @@
     <iq:application entry="PowerFieldTestsApp" id="a6b890e2-5cd0-4676-a2db-3a480a11fb6e" launcherIcon="@Drawables.LauncherIcon" minSdkVersion="2.3.0" name="@Strings.AppName" type="datafield">
         <iq:products>
             <iq:product id="edge_1000"/>
-            <iq:product id="edge_520"/>
             <iq:product id="edge1030"/>
-            <iq:product id="fr735xt"/>
             <iq:product id="edge820"/>
-            <iq:product id="fr935"/>
         </iq:products>
         <iq:permissions/>
         <iq:languages>
