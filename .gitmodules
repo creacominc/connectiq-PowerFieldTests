@@ -4,3 +4,6 @@
 [submodule "source/connectiq-PowerField"]
 	path = source/connectiq-PowerField
 	url = https://github.com/creacominc/connectiq-PowerField.git
+[submodule "connectiq-PowerField"]
+	path = connectiq-PowerField
+	url = https://github.com/creacominc/connectiq-PowerField.git
