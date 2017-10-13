@@ -93,7 +93,7 @@ function start_simulator
         kill ${SIM_PID}
     fi
 
-    ${MB_HOME}/bin/wine "${MB_HOME}/bin/simulator.exe" &
+    ${MB_HOME}/bin/shell.exe "${MB_HOME}/bin/simulator.exe" &
 }
 
 function run_mb_jar
