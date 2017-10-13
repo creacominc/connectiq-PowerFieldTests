@@ -83,11 +83,22 @@ function concat_params_for_build
     PARAMS+="--rez \"${RESOURCES}\" "
 }
 
+function start_simulator
+{
+    SIM_PID=$(ps aux | grep simulator.exe | grep -v "grep" | awk '{print $2}')
+
+    if [[ ${SIM_PID} ]]; then
+        kill ${SIM_PID}
+    fi
+
+    wine "${MB_HOME}/bin/simulator.exe" &
+}
+
 function run_mb_jar
 {
 	echo "java -Dfile.encoding=UTF-8 -Dapple.awt.UIElement=true  -jar \"${MB_HOME}/bin/monkeybrains.jar\" ${PARAMS} ${SOURCES}"
     java -Dfile.encoding=UTF-8 -Dapple.awt.UIElement=true  -jar "${MB_HOME}/bin/monkeybrains.jar" ${PARAMS} ${SOURCES}
-	ls -altr ${MB_HOME}/bin
+	ls -altr
 }
 
 function run_tests
@@ -100,6 +111,7 @@ function run_tests
 cd ${PROJECT_HOME}
 for TARGET_DEVICE in ${TARGET_DEVICES}
 do
+	start_simulator
 	PARAMS=""
 	concat_params_for_build
 	run_mb_jar
