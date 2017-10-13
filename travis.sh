@@ -32,16 +32,16 @@ SOURCE_FOLDER="source"
 
 #CONFIG_FILE="${PROJECT_HOME}/mb_runner.cfg"
 APP_NAME="PowerFieldTests"
-TARGET_DEVICE="edge_1000"
-TARGET_DEVICE="edge_1030"
-TARGET_DEVICE="edge820"
+TARGET_DEVICES="edge_1000 edge_1030 edge820"
 TARGET_SDK_VERSION="2.3.0"
 
 MANIFEST_FILE="${PROJECT_HOME}/manifest.xml"
 
 
 RESOURCES="`cd /; find \"${PROJECT_HOME}/${RESOURCES_FOLDER}\"* -iname '*.xml' | tr '\n' ':'`"
-SOURCES="`cd /; find \"${PROJECT_HOME}/${SOURCE_FOLDER}\" -iname '*.mc' | tr '\n' ' '`"
+#SOURCES="`cd /; find \"${PROJECT_HOME}/${SOURCE_FOLDER}\" -iname '*.mc' | tr '\n' ' '`"
+SOURCES=`ls -1 ${PROJECT_HOME}/${SOURCE_FOLDER}/*.mc ${PROJECT_HOME}/${SOURCE_FOLDER}/Mocks/*.mc ${PROJECT_HOME}/${SOURCE_FOLDER}/connectiq-PowerField/source/*.mc | grep -v PowerFieldApp.mc`
+
 
 API_DB="${MB_HOME}/bin/api.db"
 PROJECT_INFO="${MB_HOME}/bin/projectInfo.xml"
@@ -85,21 +85,26 @@ function concat_params_for_build
 
 function run_mb_jar
 {
-	echo "java -jar \"${MB_HOME}/bin/monkeybrains.jar\" ${PARAMS} ${SOURCES}"
-    java -jar "${MB_HOME}/bin/monkeybrains.jar" ${PARAMS} ${SOURCES}
+	echo "java -Dfile.encoding=UTF-8 -Dapple.awt.UIElement=true  -jar \"${MB_HOME}/bin/monkeybrains.jar\" ${PARAMS} ${SOURCES}"
+    java -Dfile.encoding=UTF-8 -Dapple.awt.UIElement=true  -jar "${MB_HOME}/bin/monkeybrains.jar" ${PARAMS} ${SOURCES}
+	ls -altr ${MB_HOME}/bin
 }
 
 function run_tests
 {
-	echo "\"${MB_HOME}/bin/monkeydo\" \"${PROJECT_HOME}/${APP_NAME}.prg\" -t"
-    "${MB_HOME}/bin/monkeydo" "${PROJECT_HOME}/${APP_NAME}.prg" -t
+	echo "\"${MB_HOME}/bin/monkeydo\" \"${PROJECT_HOME}/${APP_NAME}.prg\" ${TARGET_DEVICE} -t"
+    "${MB_HOME}/bin/monkeydo" "${PROJECT_HOME}/${APP_NAME}.prg" ${TARGET_DEVICE} -t
 }
 
 
 cd ${PROJECT_HOME}
-concat_params_for_build
-run_mb_jar
-run_tests
+for TARGET_DEVICE in ${TARGET_DEVICES}
+do
+	PARAMS=""
+	concat_params_for_build
+	run_mb_jar
+	run_tests
+done
 
 
 
