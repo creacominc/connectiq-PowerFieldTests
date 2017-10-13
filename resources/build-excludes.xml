@@ -1,5 +1,0 @@
-<build>
-	<exclude dir="../source/connectiq-PowerField/mb_runner" />
-	<exclude dir="../source/connectiq-PowerField/resources" />
-    <exclude file="../source/connectiq-PowerField/manifest.xml" />
-</build>
