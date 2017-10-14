@@ -78,6 +78,11 @@ chmod +x ${MB_HOME}/bin/monkeyc
 chmod +x ${MB_HOME}/bin/connectiq
 ls -al ${MB_HOME}/bin
 
+# start X virtual framebuffer
+which Xvfb
+Xvfb :0 -screen 0 1024x768x16 &
+export DISPLAY=:0.0
+
 function concat_params_for_build
 {
     PARAMS+="--apidb \"${API_DB}\" "
@@ -105,7 +110,7 @@ function start_simulator
 
 	echo "Starting simulator"
 	echo "wine ${MB_HOME}/bin/simulator.exe"
-	wine ${MB_HOME}/bin/simulator.exe /help &
+	echo "display=${DISPLAY}"
 	wine ${MB_HOME}/bin/simulator.exe &
 }
 
@@ -113,7 +118,6 @@ function run_mb_jar
 {
 	echo "java -Dfile.encoding=UTF-8 -Dapple.awt.UIElement=true  -jar \"${MB_HOME}/bin/monkeybrains.jar\" ${PARAMS} ${SOURCES}"
     java -Dfile.encoding=UTF-8 -Dapple.awt.UIElement=true  -jar "${MB_HOME}/bin/monkeybrains.jar" ${PARAMS} ${SOURCES}
-	ls -altr
 }
 
 function run_tests
