@@ -105,6 +105,7 @@ function start_simulator
 
 	echo "Starting simulator"
 	echo "wine ${MB_HOME}/bin/simulator.exe"
+	wine ${MB_HOME}/bin/simulator.exe /help &
 	wine ${MB_HOME}/bin/simulator.exe &
 }
 
