@@ -106,8 +106,9 @@ function start_simulator
 	echo "Starting simulator"
 	#echo "${MB_HOME}/bin/shell.exe \"${MB_HOME}/bin/simulator.exe\" &"
     #${MB_HOME}/bin/shell.exe "${MB_HOME}/bin/simulator.exe" &
-	echo "${MB_HOME}/bin/simulator.exe"
-	${MB_HOME}/bin/simulator.exe &
+    which wine
+	echo "wine ${MB_HOME}/bin/simulator.exe"
+	wine ${MB_HOME}/bin/simulator.exe &
 }
 
 function run_mb_jar
