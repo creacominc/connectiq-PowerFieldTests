@@ -67,6 +67,12 @@ if [ ! -e "${MB_HOME}/bin/monkeyc.bak" ] ; then
     dos2unix "${MB_HOME}/bin/monkeyc"
 fi
 
+if [ ! -e "${MB_HOME}/bin/connectiq.bak" ] ; then
+    cp -a "${MB_HOME}/bin/connectiq" "${MB_HOME}/bin/connectiq.bak"
+    chmod +x "${MB_HOME}/bin/connectiq"
+    dos2unix "${MB_HOME}/bin/connectiq"
+fi
+
 chmod +x ${MB_HOME}/bin/*.exe
 chmod +x ${MB_HOME}/bin/monkeyc
 chmod +x ${MB_HOME}/bin/connectiq
