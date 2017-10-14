@@ -131,8 +131,12 @@ for TARGET_DEVICE in ${TARGET_DEVICES}
 do
 	echo "Target Device: ${TARGET_DEVICE}"
 	start_simulator
+	sleep 2
 	PARAMS=""
 	concat_params_for_build
 	run_mb_jar
+	ps -ef | grep simulator
 	run_tests
+	echo "=============="
+	sleep 2
 done
