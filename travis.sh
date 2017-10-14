@@ -59,8 +59,8 @@ if [ ! -e "${MB_HOME}/bin/monkeydo.bak" ] ; then
     dos2unix "${MB_HOME}/bin/monkeydo"
     chmod +x "${MB_HOME}/bin/monkeydo"
     sed -i -e 's/"\$MB_HOME"\/shell/wine "\$MB_HOME"\/shell.exe/g' "${MB_HOME}/bin/monkeydo"
+	chmod +x ${MB_HOME}/bin/shell.exe
 	ls -altr ${MB_HOME}/bin
-	grep shell ${MB_HOME}/bin/monkeydo
 fi
 
 if [ ! -e "${MB_HOME}/bin/monkeyc.bak" ] ; then
