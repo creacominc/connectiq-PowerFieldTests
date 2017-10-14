@@ -4,7 +4,7 @@ jdk: oraclejdk8
 
 before_script:
     - sudo apt-get install -qq dos2unix
-    - sudo apt-get install -qq Xvfb
+    - sudo apt-get install -qq xvfb
     - sudo apt-get install -qq wine
 
 script:
