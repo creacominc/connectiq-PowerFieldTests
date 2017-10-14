@@ -104,9 +104,6 @@ function start_simulator
     fi
 
 	echo "Starting simulator"
-	#echo "${MB_HOME}/bin/shell.exe \"${MB_HOME}/bin/simulator.exe\" &"
-    #${MB_HOME}/bin/shell.exe "${MB_HOME}/bin/simulator.exe" &
-    which wine
 	echo "wine ${MB_HOME}/bin/simulator.exe"
 	wine ${MB_HOME}/bin/simulator.exe &
 }
@@ -124,17 +121,13 @@ function run_tests
     "${MB_HOME}/bin/monkeydo" "${PROJECT_HOME}/${APP_NAME}.prg" ${TARGET_DEVICE} -t
 }
 
-start_simulator
-#cd ${PROJECT_HOME}
-#for TARGET_DEVICE in ${TARGET_DEVICES}
-#do
-#	start_simulator
-#	PARAMS=""
-#	concat_params_for_build
-#	run_mb_jar
-#	run_tests
-#done
-
-
-
-
+cd ${PROJECT_HOME}
+for TARGET_DEVICE in ${TARGET_DEVICES}
+do
+	echo "Target Device: ${TARGET_DEVICE}"
+	start_simulator
+	PARAMS=""
+	concat_params_for_build
+	run_mb_jar
+	run_tests
+done
