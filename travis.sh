@@ -111,7 +111,7 @@ function start_simulator
 	echo "Starting simulator"
 	echo "wine ${MB_HOME}/bin/simulator.exe"
 	echo "display=${DISPLAY}"
-	wine ${MB_HOME}/bin/simulator.exe &
+	wine ${MB_HOME}/bin/simulator.exe /nogui &
 }
 
 function run_mb_jar
