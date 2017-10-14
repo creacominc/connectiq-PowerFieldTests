@@ -90,10 +90,16 @@ function start_simulator
     SIM_PID=$(ps aux | grep simulator.exe | grep -v "grep" | awk '{print $2}')
 
     if [[ ${SIM_PID} ]]; then
+		echo "Killing simulator PID=${SIM_PID}"
         kill ${SIM_PID}
     fi
 
-    ${MB_HOME}/bin/shell.exe "${MB_HOME}/bin/simulator.exe" &
+	echo "Starting simulator"
+	#echo "${MB_HOME}/bin/shell.exe \"${MB_HOME}/bin/simulator.exe\" &"
+    #${MB_HOME}/bin/shell.exe "${MB_HOME}/bin/simulator.exe" &
+	echo "${MB_HOME}/bin/connectiq"
+	cat ${MB_HOME}/bin/connectiq
+	${MB_HOME}/bin/connectiq &
 }
 
 function run_mb_jar
@@ -109,16 +115,16 @@ function run_tests
     "${MB_HOME}/bin/monkeydo" "${PROJECT_HOME}/${APP_NAME}.prg" ${TARGET_DEVICE} -t
 }
 
-
-cd ${PROJECT_HOME}
-for TARGET_DEVICE in ${TARGET_DEVICES}
-do
-	start_simulator
-	PARAMS=""
-	concat_params_for_build
-	run_mb_jar
-	run_tests
-done
+start_simulator
+#cd ${PROJECT_HOME}
+#for TARGET_DEVICE in ${TARGET_DEVICES}
+#do
+#	start_simulator
+#	PARAMS=""
+#	concat_params_for_build
+#	run_mb_jar
+#	run_tests
+#done
 
 
 
