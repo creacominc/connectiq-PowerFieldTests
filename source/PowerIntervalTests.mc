@@ -38,7 +38,7 @@ function testPowerIntervalInitialize(logger)
     Toybox.Test.assertEqualMessage(expectedTarget, target, "Target (" + target + ") expected to be " + expectedTarget);
     // green at
     var greenAtPower = powerInterval.getGreenAt();
-    var expectedGreenAtPower = greenAt * expectedTarget;
+    var expectedGreenAtPower = Toybox.Math.floor(greenAt * expectedTarget);
     Toybox.Test.assertEqualMessage(expectedGreenAtPower, greenAtPower, "GreenAt (" + greenAtPower + ") expected to be " + expectedGreenAtPower);
     // last total
     var lastTotal = powerInterval.getLastTotal();

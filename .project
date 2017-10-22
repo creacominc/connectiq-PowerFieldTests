@@ -14,4 +14,26 @@
 	<natures>
 		<nature>connectiq.projectNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>resources</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/PowerField/resources</locationURI>
+		</link>
+		<link>
+			<name>source/LinkedSources/PowerFieldView.mc</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/PowerField/source/PowerFieldView.mc</locationURI>
+		</link>
+		<link>
+			<name>source/LinkedSources/PowerInterval.mc</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/PowerField/source/PowerInterval.mc</locationURI>
+		</link>
+		<link>
+			<name>source/LinkedSources/PowerIntervalSet.mc</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/PowerField/source/PowerIntervalSet.mc</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>
